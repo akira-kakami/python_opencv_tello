@@ -1,3 +1,15 @@
+#Control Tello drone using Python and OpenCV
+#Flight data are displayed on the screen.
+#Key t: Take off
+#Key l: Landing
+#Key 8: Forward
+#Key 5: Stop
+#Key 2: Backward
+#Key 4: Right
+#Key 4: Left
+#Key u: Up
+#Key d: Down
+
 import cv2
 import time
 import socket
