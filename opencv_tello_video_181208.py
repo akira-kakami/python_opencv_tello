@@ -156,7 +156,7 @@ if __name__ == '__main__':
             send_cmd( 'battery?'.encode( encoding='utf-8' ), sock_cmd )
         elif k == ord('t'):
             send_cmd( 'takeoff'.encode( encoding='utf-8' ), sock_cmd )
-        elif k == ord('t'):
+        elif k == ord('l'):
             send_cmd( 'land'.encode( encoding='utf-8' ), sock_cmd )
         elif k == ord('8'):
             t_vx = t_vx + t_vx_incr 
